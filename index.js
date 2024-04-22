@@ -35,13 +35,6 @@ function createWindow() {
         shell.openExternal(url);
     });
 
-    // Listen for keydown events to navigate to index.html when "]" key is pressed
-    mainWindow.webContents.on('before-input-event', (event, input) => {
-        if (input.key === ']') {
-            mainWindow.loadFile('index.html');
-        }
-    });
-
     mainWindow.webContents.on('before-input-event', (event, input) => {
         if (input.key === '[') {
             mainWindow.loadFile('intro.html');
