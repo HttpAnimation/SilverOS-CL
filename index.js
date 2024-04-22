@@ -10,7 +10,6 @@ function createWindow() {
         height: 1500,
         fullscreen: false,
         webPreferences: {
-            preload: path.join(__dirname, 'preload.js'), // Adjust path as necessary
             contextIsolation: true,
             enableRemoteModule: false, // Deprecated in newer Electron versions, avoid if possible
             nodeIntegration: false
