@@ -1,0 +1,5 @@
+{
+    "Name": "Test app",
+    "Icon": "testApp/icon.png",
+    "Index": "testApp/index.html"
+}
