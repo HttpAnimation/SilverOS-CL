@@ -17,7 +17,7 @@ function createWindow() {
     });
     
 
-    mainWindow.loadFile('start.html');
+    mainWindow.loadFile('index.html');
 
     // Register global shortcut for reloading the page
     globalShortcut.register('CommandOrControl+R', () => {
